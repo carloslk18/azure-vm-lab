@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\carlo\\OneDrive\\Área de Trabalho\\GG\\C#\\Balta\\Calculadora\\Calculadora.csproj",
+      "projectUniqueName": "C:\\Users\\carlo\\OneDrive\\Área de Trabalho\\GG\\C#\\Balta\\Calculator\\Calculadora.csproj",
       "projectName": "Calculadora",
-      "projectPath": "C:\\Users\\carlo\\OneDrive\\Área de Trabalho\\GG\\C#\\Balta\\Calculadora\\Calculadora.csproj",
+      "projectPath": "C:\\Users\\carlo\\OneDrive\\Área de Trabalho\\GG\\C#\\Balta\\Calculator\\Calculadora.csproj",
       "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\carlo\\OneDrive\\Área de Trabalho\\GG\\C#\\Balta\\Calculadora\\obj\\",
+      "outputPath": "C:\\Users\\carlo\\OneDrive\\Área de Trabalho\\GG\\C#\\Balta\\Calculator\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config"

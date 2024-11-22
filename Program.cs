@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.Intrinsics;
 
-namespace Calculadora{
+namespace Calculator{
 
 class Program{
 
@@ -11,34 +11,34 @@ class Program{
     }
 
     static void Menu(){
-        Console.WriteLine("Escolha a operação que deseja realizar: ");
-        Console.WriteLine("1 - Adição");
-        Console.WriteLine("2 - Subtração");
-        Console.WriteLine("3 - Multiplicação");
-        Console.WriteLine("4 - Divisão");
-        Console.WriteLine("5 - Sair");
+        Console.WriteLine("Choose the operation you want to carry out: ");
+        Console.WriteLine("1 - Addition");
+        Console.WriteLine("2 - Subtraction");
+        Console.WriteLine("3 - Multiplication");
+        Console.WriteLine("4 - Division");
+        Console.WriteLine("5 - Exit");
 
 
         short choice = short.Parse(Console.ReadLine());
 
         switch (choice){
-            case 1: Soma();
+            case 1: Add();
             break;
 
-            case 2: Subtracao();
+            case 2: Sub();
             break;
 
-            case 3: Multiplicacao();
+            case 3: Mult();
             break;
 
-            case 4: Divisao();
+            case 4: Div();
             break;
 
             case 5: System.Environment.Exit(0);
             break;
 
             default: 
-            Console.WriteLine("Selecione uma das opções");
+            Console.WriteLine("Select one of the options.");
             Menu();
             break;
 
@@ -47,61 +47,61 @@ class Program{
         Console.Clear();
     }
 
-    static void Soma(){
+    static void Add(){
 
-        Console.WriteLine("Digite o 1º valor: ");
+        Console.WriteLine("Type the 1º value: ");
         double v1 = double.Parse(Console.ReadLine());
-        Console.WriteLine("Digite o 2º valor: ");
+        Console.WriteLine("Type the 2º value: ");
         double v2 = double.Parse(Console.ReadLine());
 
         double res = v1 + v2;
 
-        Console.WriteLine("O resultado da Soma é {0}",res );
+        Console.WriteLine("The result of operation is: {0}",res );
         Console.ReadKey();
         Menu();
 
     }
 
-    static void Subtracao(){
+    static void Sub(){
 
-        Console.WriteLine("Digite o 1º valor: ");
+        Console.WriteLine("Type the 1º value: ");
         double v1 = double.Parse(Console.ReadLine());
-        Console.WriteLine("Digite o 2º valor: ");
+        Console.WriteLine("Type the 2º value: ");
         double v2 = double.Parse(Console.ReadLine());
 
         double res = v1 - v2;
 
-        Console.WriteLine("O resultado dessa operação é {0}",res );
+        Console.WriteLine("The result of operation is: {0}",res );
         Console.ReadKey();
         Menu();
 
     }
 
-    static void Multiplicacao(){
+    static void Mult(){
 
-        Console.WriteLine("Digite o 1º valor: ");
+        Console.WriteLine("Type the 1º value: ");
         double v1 = double.Parse(Console.ReadLine());
-        Console.WriteLine("Digite o 2º valor: ");
+        Console.WriteLine("Type the 1º value: ");
         double v2 = double.Parse(Console.ReadLine());
 
         double res = v1 * v2;
 
-        Console.WriteLine("O resultado da operação é {0}",res );
+        Console.WriteLine("The result of operation is: {0}",res );
         Console.ReadKey();
         Menu();
 
     }
 
-    static void Divisao(){
+    static void Div(){
 
-        Console.WriteLine("Digite o 1º valor: ");
+        Console.WriteLine("Type the 1º value: ");
         double v1 = double.Parse(Console.ReadLine());
-        Console.WriteLine("Digite o 2º valor: ");
+        Console.WriteLine("Type the 1º value: ");
         double v2 = double.Parse(Console.ReadLine());
 
         double res = v1 / v2;
 
-        Console.WriteLine("O resultado da operação é {0}",res );
+        Console.WriteLine("The result of operation is: {0}",res );
         Console.ReadKey();
         Menu();
 
