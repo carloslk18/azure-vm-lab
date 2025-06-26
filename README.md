@@ -1,4 +1,4 @@
-# ☁️ Desafio Prático – Máquinas Virtuais no Microsoft Azure
+## ☁️ Desafio Prático – Máquinas Virtuais no Microsoft Azure
 
 Este repositório contém a documentação do desafio prático proposto na **trilha de Cloud Computing da Digital Innovation One (DIO)**. O objetivo foi aplicar, de forma prática, os conceitos de **provisionamento de máquinas virtuais (VMs) no Azure**, além de utilizar o GitHub como ferramenta de documentação técnica.
 
