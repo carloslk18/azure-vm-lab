@@ -57,5 +57,3 @@ As imagens do processo estão armazenadas na pasta `/images`, incluindo:
 ## 🧠 Conclusão
 
 Este laboratório foi essencial para fixar os conceitos de criação e gerenciamento de VMs na nuvem, além de reforçar a importância de **documentar processos técnicos** usando ferramentas profissionais como o GitHub.
-
-Trilha Cloud Computing – DIO
